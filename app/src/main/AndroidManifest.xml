@@ -31,7 +31,8 @@
         <activity
             android:name=".screen.add_products.AddProductsActivity"
             android:label="@string/title_activity_add_products"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".screen.auth.LoginActivity"/>
     </application>
 
 </manifest>
