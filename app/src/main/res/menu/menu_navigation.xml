@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_product"
+        android:title="Товары"
+        android:icon="@drawable/ic_shopping_cart_blue_800_24dp"/>
+
+    <item
+        android:id="@+id/menu_report"
+        android:title="Отчеты"
+        android:icon="@drawable/ic_assessment_lime_600_24dp"/>
+
+    <item
+        android:id="@+id/menu_roles"
+        android:title="Роли"
+        android:icon="@drawable/ic_record_voice_over_light_green_900_24dp"/>
+
+    <item
+        android:id="@+id/menu_personals"
+        android:title="Сотрудники"
+        android:icon="@drawable/ic_people_yellow_900_24dp"/>
+
+    <item
+        android:id="@+id/menu_zarplata"
+        android:title="Зарплата"
+        android:icon="@drawable/ic_monetization_on_light_green_a700_24dp"/>
+
+    <item
+        android:id="@+id/menu_type_zarplata"
+        android:title="Типы заработной платы"
+        android:icon="@drawable/ic_credit_card_red_900_24dp"/>
+
+    <item
+        android:id="@+id/menu_report_sales"
+        android:title="Отчеты по продажам"
+        android:icon="@drawable/ic_timeline_orange_a100_24dp"/>
+
+    <item
+        android:id="@+id/menu_type_edinits"
+        android:title="Типы единиц"
+        android:icon="@drawable/ic_widgets_light_blue_a700_24dp"/>
+
+    <item
+        android:id="@+id/menu_type_oplata"
+        android:title="Виды оплаты"
+        android:icon="@drawable/ic_account_balance_wallet_brown_600_24dp"/>
+
+    <item
+        android:id="@+id/menu_change_work"
+        android:title="Смена работы"
+        android:icon="@drawable/ic_alarm_deep_purple_900_24dp"/>
+
+    <item
+        android:id="@+id/menu_product_time_end"
+        android:title="Просроченные товары"
+        android:icon="@drawable/ic_remove_shopping_cart_deep_purple_a400_24dp"/>
+
+</menu>

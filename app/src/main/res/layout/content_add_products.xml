@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="project.innoshop.kz.innoshop.screen.add_products.AddProductsActivity"
+    tools:showIn="@layout/activity_add_products">
+
+    <LinearLayout
+        android:id="@+id/content_add_products"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginBottom="@dimen/sp_15">
+
+            <ImageView
+                android:id="@+id/img_check_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dp_5"
+                android:layout_gravity="center"
+                android:focusableInTouchMode="true"
+                android:src="@drawable/ic_brightness_1_grey_400_24dp"/>
+
+            <EditText
+                android:id="@+id/e_txt_name_product"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/name_product"
+                android:layout_weight="1"
+                android:textSize="@dimen/sp_17"/>
+
+            <ImageView
+                android:id="@+id/img_clear_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:src="@drawable/ic_clear_grey_500_24dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/sp_15">
+
+            <ImageView
+                android:id="@+id/img_check_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dp_5"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_brightness_1_grey_400_24dp"/>
+
+            <EditText
+                android:id="@+id/e_txt_price_product"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/price_product"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:textSize="@dimen/sp_17"/>
+
+            <ImageView
+                android:id="@+id/img_clear_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:src="@drawable/ic_clear_grey_500_24dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/sp_15">
+
+            <ImageView
+                android:id="@+id/img_check_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dp_5"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_brightness_1_grey_400_24dp"/>
+
+            <EditText
+                android:id="@+id/e_txt_count_product"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/count_products"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:textSize="@dimen/sp_17"/>
+
+            <ImageView
+                android:id="@+id/img_clear_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:src="@drawable/ic_clear_grey_500_24dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/sp_15">
+
+            <ImageView
+                android:id="@+id/img_check_unit_type_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dp_5"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_brightness_1_grey_400_24dp"/>
+
+            <EditText
+                android:id="@+id/e_txt_unit_type_id_product"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/unit_type_id"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:textSize="@dimen/sp_17"/>
+
+            <ImageView
+                android:id="@+id/img_clear_unit_type_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:src="@drawable/ic_clear_grey_500_24dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/sp_15">
+
+            <ImageView
+                android:id="@+id/img_check_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dp_5"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_brightness_1_grey_400_24dp"/>
+
+            <EditText
+                android:id="@+id/e_txt_description_product"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/description"
+                android:textSize="@dimen/sp_17" />
+
+            <ImageView
+                android:id="@+id/img_clear_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:src="@drawable/ic_clear_grey_500_24dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/sp_15">
+
+            <ImageView
+                android:id="@+id/img_check_qrcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dp_5"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_brightness_1_grey_400_24dp"/>
+
+            <EditText
+                android:id="@+id/e_txt_qrcode_product"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/qr_code"
+                android:layout_weight="1"
+                android:textSize="@dimen/sp_17"/>
+
+            <ImageButton
+                android:id="@+id/i_btn_read_qr_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_center_focus_weak_black_24dp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/sp_15">
+
+            <ImageView
+                android:id="@+id/img_check_choose_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dp_5"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_brightness_1_grey_400_24dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Сделать новое фото или выбрать до 8 фото"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="@dimen/sp_15"
+            android:gravity="center_horizontal">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_image_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:scrollbars="horizontal"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/i_btn_take_photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:text="Добавить фото"
+                android:layout_marginTop="@dimen/dp_5"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/btn_add_products"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_10"
+                android:background="@color/colorAccent"
+                android:text="Добавить товар"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

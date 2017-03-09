@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3E3E3E</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#9E694C</color>
+    <color name="colorBonJour">#E1DFDE</color>
+    <color name="colorNobel">#A2A1A1</color>
+    <color name="colorDandelion">#F6D563</color>
+    <color name="colorDarkTan">#9E694C</color>
+    <color name="colorGreen">#399b65</color>
+    <color name="colorBlue">#017c9e</color>
+    <color name="colorBlacktau">#30373b</color>
+</resources>
