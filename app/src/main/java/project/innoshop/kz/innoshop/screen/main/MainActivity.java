@@ -181,5 +181,6 @@ public class MainActivity extends AppCompatActivity implements MainView{
         loadingView.hideLoading();
     }
 
-
+    public void mainAdapter() {
+    }
 }
